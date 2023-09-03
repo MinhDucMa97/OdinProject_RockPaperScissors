@@ -74,6 +74,5 @@ function game(flag){
     }   
 }
 
-game(flag);
 
 
