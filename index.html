@@ -5,14 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="implemntation.js"></script>
+    <!-- <script src="implemntation.js"></script> -->
   </head>
   <body>
+    <div class="title">
+      <h1>Rock Paper Scissor</h1>
+    </div>
+    <div class="scoreBoard">
+      <div class="playerScore">
+        Player Score
+        <div class="player-count" id="player-count"></div>
+      </div>
+      <div class="computerScore">
+        Computer Score
+        <div class="computer-count" id="computer-count"></div>
+      </div>
+    </div>
     <div class="result-display-container"></div>
     <div class="selection-container">
-      <button class="button" id="rock">Rock</button>
-      <button class="button" id="paper">Paper</button>
-      <button class="button" id="scissor">Scisscors</button>
+      <button class="button" id="rock" value="rock">Rock</button>
+      <button class="button" id="paper" value="paper">Paper</button>
+      <button class="button" id="scissor" value="scissor">Scissors</button>
     </div>
+    <script src="implemntation.js"></script>
   </body>
 </html>
